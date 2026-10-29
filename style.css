@@ -1,0 +1,105 @@
+:root {
+  --bg: #f7f8fa;
+  --card-bg: #ffffff;
+  --text: #222;
+  --muted: #666;
+  --accent: #2f6fed;
+  --border: #e3e6eb;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", "Malgun Gothic", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.site-header {
+  padding: 2.5rem 1.25rem 1.5rem;
+  text-align: center;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.6rem;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+main {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  border-left: 4px solid var(--accent);
+  padding-left: 0.6rem;
+}
+
+.star-list {
+  margin: 0;
+}
+
+.star-list dt {
+  font-weight: 700;
+  color: var(--accent);
+  margin-top: 1rem;
+}
+
+.star-list dd {
+  margin: 0.25rem 0 0;
+}
+
+a {
+  color: var(--accent);
+  word-break: break-all;
+}
+
+.log-entry {
+  border-top: 1px dashed var(--border);
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.log-entry h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.placeholder {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--border);
+}
+
+@media (max-width: 480px) {
+  .site-header h1 { font-size: 1.3rem; }
+  .card { padding: 1rem; }
+}

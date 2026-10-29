@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Chapter 1 학습 포트폴리오</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Python Chapter 1 학습 포트폴리오</h1>
+    <p class="subtitle">학습 기록과 실습 사례를 정리한 페이지입니다.</p>
+  </header>
+
+  <main>
+    <section class="card" id="goal">
+      <h2>학습 목표</h2>
+      <ul>
+        <li>Python Chapter 1의 핵심 개념을 직접 코드로 작성하며 익힌다.</li>
+        <li>작성한 코드를 실행해 결과를 확인하고, 예상과 다른 부분을 기록한다.</li>
+        <li>학습 사례를 STAR 형식으로 정리해 남긴다.</li>
+      </ul>
+      <!-- TODO: 실제 교안/과제의 학습 목표 문구가 있으면 이 목록을 그 문구로 교체하세요. -->
+    </section>
+
+    <section class="card" id="star">
+      <h2>STAR 사례 1</h2>
+      <dl class="star-list">
+        <dt>Situation</dt>
+        <dd><!-- TODO: 배우던 상황 --></dd>
+
+        <dt>Task</dt>
+        <dd><!-- TODO: 확인하려던 것 --></dd>
+
+        <dt>Action — 내가 한 일</dt>
+        <dd><!-- TODO: 직접 질문하고 작성·수정·실행한 일 --></dd>
+
+        <dt>Action — AI가 도와준 일</dt>
+        <dd><!-- TODO: AI가 설명하거나 제안한 부분 --></dd>
+
+        <dt>Result</dt>
+        <dd><!-- TODO: 실제 실행해서 확인한 결과 --></dd>
+      </dl>
+    </section>
+
+    <section class="card" id="repo">
+      <h2>실습 저장소</h2>
+      <p>
+        <a href="https://github.com/subinhappy777-hub/security-agent-toolkit/tree/main/agent_core"
+           target="_blank" rel="noopener noreferrer">
+          security-agent-toolkit / agent_core (GitHub)
+        </a>
+      </p>
+    </section>
+
+    <!-- 수업일별 사례 추가 영역: 아래 section을 복사해 날짜별로 추가하세요 -->
+    <section class="card" id="daily-log">
+      <h2>수업일별 사례</h2>
+
+      <!--
+      <article class="log-entry">
+        <h3>YYYY-MM-DD</h3>
+        <dl class="star-list">
+          <dt>Situation</dt><dd>...</dd>
+          <dt>Task</dt><dd>...</dd>
+          <dt>Action — 내가 한 일</dt><dd>...</dd>
+          <dt>Action — AI가 도와준 일</dt><dd>...</dd>
+          <dt>Result</dt><dd>...</dd>
+        </dl>
+      </article>
+      -->
+
+      <p class="placeholder">아직 추가된 수업일별 사례가 없습니다.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Python Chapter 1 학습 포트폴리오</p>
+  </footer>
+</body>
+</html>
